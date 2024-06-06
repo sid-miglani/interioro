@@ -1,10 +1,10 @@
 import React from 'react'
-
+import homepageImg from '../images/homepageimg.png'
 const About = () => {
   return (
     <>
     <div className='relative'>
-      <img className='w-screen h-[700px] opacity-80' src="./src/images/homepageimg.jpg" alt="about-img" />
+      <img className='w-screen h-[700px] opacity-80' src={homepageImg} alt="about-img" />
       <div className='absolute top-32 left-[270px]'>
         <h1 className='font-bold text-5xl text-white tracking-wider'>
           YOUR DREAM INTERIOR STARTS HERE
