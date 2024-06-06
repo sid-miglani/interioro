@@ -1,13 +1,13 @@
 import React from 'react'
 import Footer from './Footer'
-
+import homeimg from '../images/homeimg.jpg'
 const Home = () => {
   return (
    
   <>
   
   <div className='relative'>
-      <img className='w-screen h-[700px] opacity-100' src='./src/images/homeimg.jpg'></img>
+      <img className='w-screen h-[700px] opacity-100' src={homeimg}></img>
       <div className='absolute top-40 left-24'>
         <h1 className='text- text-4xl font-bold'>
           INTERIORO DESIGN WELCOMES YOU
