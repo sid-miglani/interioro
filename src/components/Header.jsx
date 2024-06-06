@@ -1,12 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import image1 from '../images/3606664.jpg'
 
 const Header = () => {
   return (
     <>
     <div className='flex justify-between bg-gray-100'>
         <div className='flex'>
-            <img className='w-[70px] h-[70px] rounded-full m-4' src='./src/images/3606664.jpg'></img>
+            <img className='w-[70px] h-[70px] rounded-full m-4' src={image1}></img>
         </div>
             <div className='mt-[40px] mr-[80px]'>
                 <ul className='flex'>
